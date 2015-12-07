@@ -1,0 +1,1 @@
+tgo_composer -georeg -pdf="template8.5x11.pdf" -output="Hello_World_OUT.pdf" -xml="Hello_World.xml" -verbose=debug -product=TGO_Composer -vendor=TerraGo

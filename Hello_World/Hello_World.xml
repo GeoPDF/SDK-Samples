@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<geoDoc version="1.0">
+	<!-- The coordinate systems that we'll use later when creating map frames -->
+    <coordinateSystems>
+        <coordinateSystem name="WGS_1984 based datum/Mercator_2SP" id="CS00">
+            <![CDATA[PROJCS["WGS_1984 based datum/Mercator_2SP",GEOGCS["WGS_1984 based datum",DATUM["WGS_1984 based datum",SPHEROID["Sphere",6378137,0],TOWGS84[0,0,0,0,0,0,0]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433]],PROJECTION["Mercator_2SP"],PARAMETER["standard_parallel_1",0],PARAMETER["central_meridian",0],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["Meter",1]]]]>
+		</coordinateSystem>
+    </coordinateSystems>
+    <pages>
+        <page number="0">
+			<!-- Georegistered map frames prep the PDF for converting page coordinates to 
+			map/geographic coordinates. They are used the coordinate display when moving 
+			the mouse, aligning raster and vector data atop map, and other functions. -->
+            <frames>
+                <frame description="LAYERS">
+                    <coordinateSystem href="#CS00" />
+                    <userCoordinateSystem href="#CS00" />
+					<!-- These points associate page coords to map/geographic coords -->
+                    <points>
+                        <point>
+                            <projected east="19451413.12763433" north="-13366118.53451977" />
+                            <document x="712.8000000000001" y="79.20000000000023" />
+                        </point>
+                        <point>
+                            <projected east="-19593781.88739646" north="14588616.65516324" />
+                            <document x="79.24363330065225" y="532.8000000000002" />
+                        </point>
+                    </points>
+                    <!-- Optional boundary of the map frame -->
+					<neatline>
+                        <points>
+                            <point>
+                                <document x="720.0000000000001" y="72.0000000000002" />
+                            </point>
+                            <point>
+                                <document x="72.04363330065226" y="72.0000000000002" />
+                            </point>
+                            <point>
+                                <document x="72.04363330065226" y="540.0000000000001" />
+                            </point>
+                            <point>
+                                <document x="720.0000000000001" y="539.9999999999999" />
+                            </point>
+                            <point>
+                                <document x="720.0000000000001" y="72.0000000000002" />
+                            </point>
+                        </points>
+                    </neatline>
+                </frame>
+            </frames>
+			<!-- GeoTIFF content will be aligned and clipped to the map frame -->
+			<content action="insertFirst" url="World.tif" layerName="World" referenceFrame="largestPaper">
+				<clipPath clipToReferenceFrame="true"/>
+			</content>
+			<!-- Giant label to make a point -->
+			<content originX="398" originY="113">
+				<text>Hello World!</text>
+				<labelOptions fontType= "Arial-BoldMT" color="black" size ="96" factor="1" halign= "center"/>
+			</content>
+        </page>
+    </pages>
+</geoDoc>
