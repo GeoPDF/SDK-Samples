@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<geoDoc version="1.0">
+	<pages>
+		<page number="0">
+			<content originX="20" originY="1810" width= "0.0" height= "0.0">
+				<text>New Label1</text>
+				<labelOptions fontType= "Helvetica" color="red" size ="7" factor="1" halign= "left" rotation= "90"/>
+			</content>
+			<content originX="450" originY="1800" width= "0.0" height= "0.0">
+				<text>New Label2</text>
+				<labelOptions fontType= "Arial" color="0x7f000000" size ="48" factor="1" halign= "center"/>
+			</content>
+			<content originX="1450" originY="1800" width= "0.0" height= "0.0">
+				<text>New Label3</text>
+				<labelOptions fontType= "Arial" color="0x7f000000" size ="48" factor="1" halign= "right"/>
+			</content>
+		</page>
+	</pages>
+</geoDoc>
