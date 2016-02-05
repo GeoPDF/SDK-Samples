@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<geoDoc>
+  <pages>
+    <page number="0">
+		<content action="insertFirst" url="TOPO_12SUE9706979349.PDF" layerName="TOPO" referenceFrame="largestPaper">
+			<clipPath clipToReferenceFrame="true"/>
+		</content>
+    </page>
+  </pages>
+</geoDoc>
