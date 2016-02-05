@@ -1,0 +1,1 @@
+tgo_composer -assemble -pdf="12SUE9706979349_geo.pdf" -output="12SUE9706979349_geo_OUT.pdf" -xml="addImage2Margin.xml" -verbose=debug -product=TGO_Composer -vendor=TerraGo
