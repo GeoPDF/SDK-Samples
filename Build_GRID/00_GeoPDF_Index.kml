@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<kml xmlns="http://www.opengis.net/kml/2.2"> 
+<Document><Folder><name>GeoPDF_footprints</name> 
+	<Schema name="GeoPDF footprints" id="GeoPDF_footprints"></Schema> 
+	<Placemark> 
+		<name>12SUE9706979349</name> 
+		<description>C:\Users\jmueller\Desktop\SDK_Samples\Build_GRID\12SUE9706979349.pdf</description> 	
+		<Polygon><outerBoundaryIs><LinearRing><coordinates>  
+			-112.1248634502411,35.93736345026633
+			-112.1563865496463,35.93736345026633
+			-112.1563865496464,35.9688865496716
+			-112.1248634502411,35.9688865496716
+			-112.1248634502411,35.93736345026633
+		</coordinates></LinearRing></outerBoundaryIs></Polygon> 
+		<Style><LineStyle><color>ff0000ff</color></LineStyle>  <PolyStyle><fill>0</fill></PolyStyle></Style> 
+	</Placemark> 
+	<Placemark> 
+		<name>12SUE9711082815</name> 
+		<description>C:\Users\jmueller\Desktop\SDK_Samples\Build_GRID\12SUE9711082815.pdf</description> 	
+		<Polygon><outerBoundaryIs><LinearRing><coordinates>  
+			-112.1248634502411,35.96861345020398
+			-112.1563865496463,35.96861345020398
+			-112.1563865496463,36.00013654960924
+			-112.1248634502411,36.00013654960923
+			-112.1248634502411,35.96861345020398
+		</coordinates></LinearRing></outerBoundaryIs></Polygon> 
+		<Style><LineStyle><color>ff0000ff</color></LineStyle>  <PolyStyle><fill>0</fill></PolyStyle></Style> 
+	</Placemark> 
+	<Placemark> 
+		<name>12SUE9715186282</name> 
+		<description>C:\Users\jmueller\Desktop\SDK_Samples\Build_GRID\12SUE9715186282.pdf</description> 	
+		<Polygon><outerBoundaryIs><LinearRing><coordinates>  
+			-112.1248634502411,35.99986345014157
+			-112.1563865496463,35.99986345014157
+			-112.1563865496463,36.03138654954671
+			-112.1248634502411,36.03138654954671
+			-112.1248634502411,35.99986345014157
+		</coordinates></LinearRing></outerBoundaryIs></Polygon> 
+		<Style><LineStyle><color>ff0000ff</color></LineStyle>  <PolyStyle><fill>0</fill></PolyStyle></Style> 
+	</Placemark> 
+	<Placemark> 
+		<name>12SUE9988879317</name> 
+		<description>C:\Users\jmueller\Desktop\SDK_Samples\Build_GRID\12SUE9988879317.pdf</description> 	
+		<Polygon><outerBoundaryIs><LinearRing><coordinates>  
+			-112.0936134503035,35.93736345026633
+			-112.1251365497087,35.93736345026633
+			-112.1251365497087,35.9688865496716
+			-112.0936134503035,35.9688865496716
+			-112.0936134503035,35.93736345026633
+		</coordinates></LinearRing></outerBoundaryIs></Polygon> 
+		<Style><LineStyle><color>ff0000ff</color></LineStyle>  <PolyStyle><fill>0</fill></PolyStyle></Style> 
+	</Placemark> 
+	<Placemark> 
+		<name>12SUE9992782783</name> 
+		<description>C:\Users\jmueller\Desktop\SDK_Samples\Build_GRID\12SUE9992782783.pdf</description> 	
+		<Polygon><outerBoundaryIs><LinearRing><coordinates>  
+			-112.0936134503035,35.96861345020398
+			-112.1251365497087,35.96861345020398
+			-112.1251365497087,36.00013654960924
+			-112.0936134503035,36.00013654960925
+			-112.0936134503035,35.96861345020398
+		</coordinates></LinearRing></outerBoundaryIs></Polygon> 
+		<Style><LineStyle><color>ff0000ff</color></LineStyle>  <PolyStyle><fill>0</fill></PolyStyle></Style> 
+	</Placemark> 
+	<Placemark> 
+		<name>12SUE9996786249</name> 
+		<description>C:\Users\jmueller\Desktop\SDK_Samples\Build_GRID\12SUE9996786249.pdf</description> 	
+		<Polygon><outerBoundaryIs><LinearRing><coordinates>  
+			-112.0936134503035,35.99986345014156
+			-112.1251365497087,35.99986345014157
+			-112.1251365497087,36.03138654954671
+			-112.0936134503035,36.03138654954671
+			-112.0936134503035,35.99986345014156
+		</coordinates></LinearRing></outerBoundaryIs></Polygon> 
+		<Style><LineStyle><color>ff0000ff</color></LineStyle>  <PolyStyle><fill>0</fill></PolyStyle></Style> 
+	</Placemark> 
+</Folder></Document></kml> 
