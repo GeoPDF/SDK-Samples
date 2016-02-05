@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
+<geoDoc version="1.0">
+	<!-- Turn off auto TerraGo Enable -->
+	<privileges turnOff="true"/>
+	<bookmarks> 
+		<!-- Creation of Bookmarks - executes javescript to set nav pane --> 
+		<bookmark label="Show Layer Pane"> 
+			<action type="script"> this.pane = &quot;L&quot; </action> 
+		</bookmark> 
+		<bookmark label="Pop-Up Message">
+			<action type="script">app.alert(&quot;This is a test javascript...Hello,World&quot;);</action>
+		</bookmark>
+	</bookmarks> 
+</geoDoc> 
