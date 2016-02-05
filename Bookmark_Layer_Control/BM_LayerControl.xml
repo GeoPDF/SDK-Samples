@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
+<geoDoc> 
+	<!-- Creation of Bookmarks - toggle layers on/off - assumption made that standard layers are used across UTP products  -->
+	<bookmarks>
+		<bookmark label="Vector Only">
+			<action type="viewState">
+				<on>
+					<layer path="Layers/Transmission_Structure"/>
+					<layer path="Layers/FAA"/>
+					<layer path="Layers/GeoNames_POI"/>
+					<layer path="Layers/EvacuationRoutes"/>
+					<layer path="Layers/Detailed Streets"/>
+					<layer path="Layers/Landmarks"/>
+					<layer path="Layers/Airports"/>
+					<layer path="Layers/Railroads"/>
+					<layer path="Layers/Parks"/>
+					<layer path="Layers/Oil"/>
+					<layer path="Layers/Water"/>
+					<layer path="Layers/Wetlands"/>
+					<layer path="Layers/Contours"/>
+					<layer path="Layers/State Bounds"/>
+					<layer path="Layers/County Bounds"/>
+					<layer path="Layers/Background"/>
+					<layer path="Layers/Grids"/>
+				</on>
+				<off>
+					<layer path="TOPO"/>
+					<layer path="NAIP Imagery"/>
+				</off>
+			</action>
+		</bookmark>
+		<bookmark label="Hybrid View">
+			<bookmarks>
+				<bookmark label="TOPO / Vector Hybrid">
+					<action type="viewState">
+						<on>
+							<layer path="Layers/Transmission_Structure"/>
+							<layer path="Layers/FAA"/>
+							<layer path="Layers/GeoNames_POI"/>
+							<layer path="Layers/EvacuationRoutes"/>
+							<layer path="Layers/Detailed Streets"/>
+							<layer path="Layers/Landmarks"/>
+							<layer path="Layers/Airports"/>
+							<layer path="Layers/Railroads"/>
+							<layer path="Layers/Oil"/>
+							<layer path="Layers/Water"/>
+							<layer path="Layers/Wetlands"/>
+							<layer path="Layers/Contours"/>
+							<layer path="Layers/State Bounds"/>
+							<layer path="Layers/County Bounds"/>
+							<layer path="Layers/Grids"/>
+							<layer path="TOPO"/>
+						</on>
+						<off>
+							<layer path="Layers/Parks"/>
+							<layer path="Layers/Background"/>
+							<layer path="NAIP Imagery"/>
+						</off>
+					</action>
+				</bookmark>
+				<bookmark label="NAIP Imagery / Vector Hybrid">
+					<action type="viewState">
+						<on>
+							<layer path="Layers/Transmission_Structure"/>
+							<layer path="Layers/FAA"/>
+							<layer path="Layers/GeoNames_POI"/>
+							<layer path="Layers/EvacuationRoutes"/>
+							<layer path="Layers/Detailed Streets"/>
+							<layer path="Layers/Landmarks"/>
+							<layer path="Layers/Airports"/>
+							<layer path="Layers/Railroads"/>
+							<layer path="Layers/Parks"/>
+							<layer path="Layers/Oil"/>
+							<layer path="Layers/Water"/>
+							<layer path="Layers/Wetlands"/>
+							<layer path="Layers/Contours"/>
+							<layer path="Layers/State Bounds"/>
+							<layer path="Layers/County Bounds"/>
+							<layer path="Layers/Grids"/>
+							<layer path="NAIP Imagery"/>
+						</on>
+						<off>
+							<layer path="Layers/Parks"/>
+							<layer path="Layers/Background"/>
+							<layer path="TOPO"/>
+						</off>
+					</action>
+				</bookmark>
+			</bookmarks>
+		</bookmark>
+		<bookmark label="TOPO Only">
+			<action type="viewState">
+				<on>
+					<layer path="Layers/Grids"/>
+					<layer path="TOPO"/>
+				</on>
+				<off>
+					<layer path="Layers/Transmission_Structure"/>
+					<layer path="Layers/FAA"/>
+					<layer path="Layers/GeoNames_POI"/>
+					<layer path="Layers/EvacuationRoutes"/>
+					<layer path="Layers/Detailed Streets"/>
+					<layer path="Layers/Landmarks"/>
+					<layer path="Layers/Airports"/>
+					<layer path="Layers/Railroads"/>
+					<layer path="Layers/Parks"/>
+					<layer path="Layers/Oil"/>
+					<layer path="Layers/Water"/>
+					<layer path="Layers/Wetlands"/>
+					<layer path="Layers/Contours"/>
+					<layer path="Layers/State Bounds"/>
+					<layer path="Layers/County Bounds"/>
+					<layer path="Layers/Background"/>
+					<layer path="NAIP Imagery"/>
+				</off>
+			</action>
+		</bookmark>
+		<bookmark label="NAIP Imagery Only">
+			<action type="viewState">
+				<on>
+					<layer path="Layers/Grids"/>
+					<layer path="NAIP Imagery"/>
+				</on>
+				<off>
+					<layer path="Layers/Transmission_Structure"/>
+					<layer path="Layers/FAA"/>
+					<layer path="Layers/GeoNames_POI"/>
+					<layer path="Layers/EvacuationRoutes"/>
+					<layer path="Layers/Detailed Streets"/>
+					<layer path="Layers/Landmarks"/>
+					<layer path="Layers/Airports"/>
+					<layer path="Layers/Railroads"/>
+					<layer path="Layers/Parks"/>
+					<layer path="Layers/Oil"/>
+					<layer path="Layers/Water"/>
+					<layer path="Layers/Wetlands"/>
+					<layer path="Layers/Contours"/>
+					<layer path="Layers/State Bounds"/>
+					<layer path="Layers/County Bounds"/>
+					<layer path="Layers/Background"/>
+					<layer path="TOPO"/>
+				</off>
+			</action>
+		</bookmark>
+	</bookmarks> 
+</geoDoc> 
