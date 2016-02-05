@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<geoDoc>
+	<bookmarks>
+		<!-- web location-->
+		<bookmark label="TerraGo Technologies - Website">
+			<action type="navigation" url="http://www.terragotech.com"/>
+		</bookmark>
+	</bookmarks>
+</geoDoc>
