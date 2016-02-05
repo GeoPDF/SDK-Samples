@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<geoDoc>
+	<pages>
+		<page>
+			<content url="Places.kml" type="KML" createLayer="true" layerName="KML_Points" referenceFrame="largestPaper">
+				<clipPath clipToReferenceFrame="true" />
+			</content>
+		</page>
+	</pages>
+</geoDoc>

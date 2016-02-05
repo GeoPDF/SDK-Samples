@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Places.kml</name>
+	<Style id="poi3n">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://kh.google.com:80/flatfile?lf-0-icons/park-15.png</href>
+				<gx:w>32</gx:w>
+				<gx:h>32</gx:h>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>00000000</color>
+			<width>0</width>
+			<gx:labelVisibility>1</gx:labelVisibility>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poi3h">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://kh.google.com:80/flatfile?lf-0-icons/park-15.png</href>
+				<gx:w>32</gx:w>
+				<gx:h>32</gx:h>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>00000000</color>
+			<width>0</width>
+			<gx:labelVisibility>1</gx:labelVisibility>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="1048904">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poi3n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poi3h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Temporary Places</name>
+		<open>1</open>
+		<Placemark id="4895830933778982787">
+			<name>Best Western Premier Grand Canyon Squire Inn</name>
+			<description><![CDATA[<html>
+ <body>
+  <img style="display:none" src="$[tracking_href_2]" />
+  <div id="content" name="cid=4895830933778982787&q=Best+Western+Premier+Grand+Canyon+Squire+Inn&ui=earth&view=teaser">
+   <script type="text/javascript" language="JavaScript" src="http://mw2.google.com/mw-earth-vectordb/scripts/business_listings/placepage_loader.js">
+   </script>
+   <table>
+    <tr>
+     <td>
+      <div><table width="350">
+<tr>
+  <td colspan="2">
+    <font size="+1">
+      <b><a style="text-decoration: none" href="http://maps.google.com/maps/place?cid=4895830933778982787">Best Western Premier Grand Canyon Squire Inn</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td>100 Arizona 64
+Grand Canyon, AZ 86023, United States</td>
+</tr>
+<tr>
+  <td>(928) 638-2681</td>
+</tr>
+<tr>
+  <td><a style="color: #008000" href="http://book.bestwestern.com/bestwestern/productInfo.do?propertyCode=03049&cm_mmc=PTI-_-local-_-feed-_-03049">http://book.bestwestern.com/bestwestern/productInfo.do?propertyCode=03049&cm_mmc=PTI-_-local-_-feed-_-03049</a></td>
+</tr>
+
+
+
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>http://mw1.google.com/mw-earth-vectordb/blaces/00037/root.kmz/default.kml#lodging</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-lodging-hotel._._._.3249a831c65a1b9f_en&amp;cad=lat:35.969566,lon:-112.128996,quad:01032100113010133,cc:US</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-112.128996,35.969566,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="9614951904478225665">
+			<name>The Grand Hotel at the Grand Canyon</name>
+			<description><![CDATA[<html>
+ <body>
+  <img style="display:none" src="$[tracking_href_2]" />
+  <div id="content" name="cid=9614951904478225665&q=The+Grand+Hotel+at+the+Grand+Canyon&ui=earth&view=teaser">
+   <script type="text/javascript" language="JavaScript" src="http://mw2.google.com/mw-earth-vectordb/scripts/business_listings/placepage_loader.js">
+   </script>
+   <table>
+    <tr>
+     <td>
+      <div><table width="350">
+<tr>
+  <td colspan="2">
+    <font size="+1">
+      <b><a style="text-decoration: none" href="http://maps.google.com/maps/place?cid=9614951904478225665">The Grand Hotel at the Grand Canyon</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td>149 State Highway 64
+Grand Canyon, AZ 86023, United States</td>
+</tr>
+<tr>
+  <td>(928) 638-3333</td>
+</tr>
+<tr>
+  <td><a style="color: #008000" href="http://www.grandcanyongrandhotel.com">http://www.grandcanyongrandhotel.com</a></td>
+</tr>
+
+
+
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>http://mw1.google.com/mw-earth-vectordb/blaces/00037/root.kmz/default.kml#lodging</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-lodging-hotel._._._.ce2f6bb168e9cd4d_en&amp;cad=lat:35.9700955,lon:-112.1272383,quad:01032100113010133,cc:US</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-112.1272383,35.9700955,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="7515344420120473047">
+			<name>Holiday Inn Express Hotel &amp; Suites Grand Canyon</name>
+			<description><![CDATA[<html>
+ <body>
+  <img style="display:none" src="$[tracking_href_2]" />
+  <div id="content" name="cid=7515344420120473047&q=Holiday+Inn+Express+Hotel+%26+Suites+Grand+Canyon&ui=earth&view=teaser">
+   <script type="text/javascript" language="JavaScript" src="http://mw2.google.com/mw-earth-vectordb/scripts/business_listings/placepage_loader.js">
+   </script>
+   <table>
+    <tr>
+     <td>
+      <div><table width="350">
+<tr>
+  <td colspan="2">
+    <font size="+1">
+      <b><a style="text-decoration: none" href="http://maps.google.com/maps/place?cid=7515344420120473047">Holiday Inn Express Hotel & Suites Grand Canyon</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td>226 Arizona 64
+Tusayan, Arizona 86023, United States</td>
+</tr>
+<tr>
+  <td>(928) 638-3000</td>
+</tr>
+<tr>
+  <td><a style="color: #008000" href="http://www.hiexpress.com/hotels/us/en/grand-canyon/gcnaz/hoteldetail">http://www.hiexpress.com/hotels/us/en/grand-canyon/gcnaz/hoteldetail</a></td>
+</tr>
+
+
+
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>http://mw1.google.com/mw-earth-vectordb/blaces/00037/root.kmz/default.kml#lodging</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-lodging-hotel._._._.cf1d286f93987ec2_en&amp;cad=lat:35.9712418,lon:-112.1279069,quad:01032100113010133,cc:US</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-112.1279069,35.9712418,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="17795395043709345165">
+			<name>Red Feather Hotel</name>
+			<description><![CDATA[<html>
+ <body>
+  <img style="display:none" src="$[tracking_href_2]" />
+  <div id="content" name="cid=17795395043709345165&q=Red+Feather+Hotel&ui=earth&view=teaser">
+   <script type="text/javascript" language="JavaScript" src="http://mw2.google.com/mw-earth-vectordb/scripts/business_listings/placepage_loader.js">
+   </script>
+   <table>
+    <tr>
+     <td>
+      <div><table width="350">
+<tr>
+  <td colspan="2">
+    <font size="+1">
+      <b><a style="text-decoration: none" href="http://maps.google.com/maps/place?cid=17795395043709345165">Red Feather Hotel</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td>300 Arizona 64
+Tusayan, Arizona 86023, United States</td>
+</tr>
+<tr>
+  <td>(928) 638-2414</td>
+</tr>
+<tr>
+  <td><a style="color: #008000" href="http://www.redfeatherlodge.com/">http://www.redfeatherlodge.com/</a></td>
+</tr>
+
+
+
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>http://mw1.google.com/mw-earth-vectordb/blaces/00037/root.kmz/default.kml#lodging</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-lodging-lodging._._._.38e36217c048e3f9_en&amp;cad=lat:35.9721117,lon:-112.1276967,quad:010321001130101332,cc:US</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-112.1276967,35.9721117,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="10838667570829196123">
+			<name>R P&apos;s Stage Stop</name>
+			<description><![CDATA[<html>
+ <body>
+  <img style="display:none" src="$[tracking_href_2]" />
+  <div id="content" name="cid=10838667570829196123&q=R+P%27s+Stage+Stop&ui=earth&view=teaser">
+   <script type="text/javascript" language="JavaScript" src="http://mw2.google.com/mw-earth-vectordb/scripts/business_listings/placepage_loader.js">
+   </script>
+   <table>
+    <tr>
+     <td>
+      <div><table width="350">
+<tr>
+  <td colspan="2">
+    <font size="+1">
+      <b><a style="text-decoration: none" href="http://maps.google.com/maps/place?cid=10838667570829196123">R P's Stage Stop</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td>114A Arizona 64
+Grand Canyon, AZ 86023, United States</td>
+</tr>
+<tr>
+  <td>(928) 638-3115</td>
+</tr>
+<tr>
+  <td><a style="color: #008000" href="http://www.rpsstagestop.com/">http://www.rpsstagestop.com/</a></td>
+</tr>
+
+
+
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>http://mw1.google.com/mw-earth-vectordb/blaces/00037/root.kmz/default.kml#cafe</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-cafe-cafe._._._.dac6e6f292cd373e_en&amp;cad=lat:35.9726777,lon:-112.1276149,quad:01032100113010133,cc:US</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-112.1276149,35.9726777,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="9529516759206989359">
+			<name>Grand Canyon Trading Post</name>
+			<description><![CDATA[<html>
+ <body>
+  <img style="display:none" src="$[tracking_href_2]" />
+  <div id="content" name="cid=9529516759206989359&q=Grand+Canyon+Trading+Post&ui=earth&view=teaser">
+   <script type="text/javascript" language="JavaScript" src="http://mw2.google.com/mw-earth-vectordb/scripts/business_listings/placepage_loader.js">
+   </script>
+   <table>
+    <tr>
+     <td>
+      <div><table width="350">
+<tr>
+  <td colspan="2">
+    <font size="+1">
+      <b><a style="text-decoration: none" href="http://maps.google.com/maps/place?cid=9529516759206989359">Grand Canyon Trading Post</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td>111 Arizona 64
+Grand Canyon, AZ 86023, United States</td>
+</tr>
+<tr>
+  <td>(928) 638-2418</td>
+</tr>
+<tr>
+  <td><a style="color: #008000" href="http://www.grandcanyonlodges.com/tusayan-trading-post-7338.html">http://www.grandcanyonlodges.com/tusayan-trading-post-7338.html</a></td>
+</tr>
+
+
+
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>http://mw1.google.com/mw-earth-vectordb/blaces/00037/root.kmz/default.kml#shopping</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-shopping-gifts._._._.3790e14559d78693_en&amp;cad=lat:35.9724164,lon:-112.1264223,quad:010321001130102,cc:US</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-112.1264223,35.9724164,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="8849030636544272282">
+			<name>McDonald&apos;s</name>
+			<description><![CDATA[<html>
+ <body>
+  <img style="display:none" src="$[tracking_href_2]" />
+  <div id="content" name="cid=8849030636544272282&q=McDonald%27s&ui=earth&view=teaser">
+   <script type="text/javascript" language="JavaScript" src="http://mw2.google.com/mw-earth-vectordb/scripts/business_listings/placepage_loader.js">
+   </script>
+   <table>
+    <tr>
+     <td>
+      <div><table width="350">
+<tr>
+  <td colspan="2">
+    <font size="+1">
+      <b><a style="text-decoration: none" href="http://maps.google.com/maps/place?cid=8849030636544272282">McDonald's</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td>Arizona 64
+Grand Canyon, AZ 86023, United States</td>
+</tr>
+<tr>
+  <td>(928) 638-2208</td>
+</tr>
+<tr>
+  <td><a style="color: #008000" href="http://www.mcdonalds.com/">http://www.mcdonalds.com/</a></td>
+</tr>
+
+
+
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>http://mw1.google.com/mw-earth-vectordb/blaces/00037/root.kmz/default.kml#restaurant</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-restaurant-restaurant._._._.e46160b7067e7e71_en&amp;cad=lat:35.9720466,lon:-112.1265574,quad:01032100113010133,cc:US</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-112.1265574,35.9720466,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4253117516126910041">
+			<name>Wendy&apos;s</name>
+			<description><![CDATA[<html>
+ <body>
+  <img style="display:none" src="$[tracking_href_2]" />
+  <div id="content" name="cid=4253117516126910041&q=Wendy%27s&ui=earth&view=teaser">
+   <script type="text/javascript" language="JavaScript" src="http://mw2.google.com/mw-earth-vectordb/scripts/business_listings/placepage_loader.js">
+   </script>
+   <table>
+    <tr>
+     <td>
+      <div><table width="350">
+<tr>
+  <td colspan="2">
+    <font size="+1">
+      <b><a style="text-decoration: none" href="http://maps.google.com/maps/place?cid=4253117516126910041">Wendy's</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td>372 Arizona 64
+Tusayan, AZ 86023, United States</td>
+</tr>
+<tr>
+  <td>(928) 638-6484</td>
+</tr>
+<tr>
+  <td><a style="color: #008000" href="http://www.wendys.com/">http://www.wendys.com/</a></td>
+</tr>
+
+
+
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>http://mw1.google.com/mw-earth-vectordb/blaces/00037/root.kmz/default.kml#restaurant_fastfood</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-restaurant_fastfood-fast_food._._._.5573a111e3d233d4_en&amp;cad=lat:35.9732316,lon:-112.1269073,quad:01032100113010133,cc:US</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-112.1269073,35.9732316,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="7413812942123336273">
+			<name>Big E Steakhouse &amp; Saloon</name>
+			<description><![CDATA[<html>
+ <body>
+  <img style="display:none" src="$[tracking_href_2]" />
+  <div id="content" name="cid=7413812942123336273&q=Big+E+Steakhouse+%26+Saloon&ui=earth&view=teaser">
+   <script type="text/javascript" language="JavaScript" src="http://mw2.google.com/mw-earth-vectordb/scripts/business_listings/placepage_loader.js">
+   </script>
+   <table>
+    <tr>
+     <td>
+      <div><table width="350">
+<tr>
+  <td colspan="2">
+    <font size="+1">
+      <b><a style="text-decoration: none" href="http://maps.google.com/maps/place?cid=7413812942123336273">Big E Steakhouse & Saloon</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td>395 State Route 64
+Tusayan, AZ 86023, United States</td>
+</tr>
+<tr>
+  <td>(928) 638-0333</td>
+</tr>
+<tr>
+  <td><a style="color: #008000" href="http://www.bigesteakhouse.com/">http://www.bigesteakhouse.com/</a></td>
+</tr>
+
+
+
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>http://mw1.google.com/mw-earth-vectordb/blaces/00037/root.kmz/default.kml#restaurant</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-restaurant-restaurant._._._.6fee7b43353bd141_en&amp;cad=lat:35.973161,lon:-112.126142,quad:01032100113010200,cc:US</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-112.126142,35.973161,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="18089619141695857747">
+			<name>Grand Canyon Imax Theater</name>
+			<description><![CDATA[<html>
+ <body>
+  <img style="display:none" src="$[tracking_href_2]" />
+  <div id="content" name="cid=18089619141695857747&q=Grand+Canyon+Imax+Theater&ui=earth&view=teaser">
+   <script type="text/javascript" language="JavaScript" src="http://mw2.google.com/mw-earth-vectordb/scripts/business_listings/placepage_loader.js">
+   </script>
+   <table>
+    <tr>
+     <td>
+      <div><table width="350">
+<tr>
+  <td colspan="2">
+    <font size="+1">
+      <b><a style="text-decoration: none" href="http://maps.google.com/maps/place?cid=18089619141695857747">Grand Canyon Imax Theater</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td>450 Arizona 64
+Tusayan, AZ 86023, United States</td>
+</tr>
+<tr>
+  <td>(928) 638-2203</td>
+</tr>
+<tr>
+  <td><a style="color: #008000" href="http://www.explorethecanyon.com/">http://www.explorethecanyon.com/</a></td>
+</tr>
+
+
+
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>http://mw1.google.com/mw-earth-vectordb/blaces/00037/root.kmz/default.kml#movies</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-movies-movie_theater._._._.d11f1011ca68e515_en&amp;cad=lat:35.9742136,lon:-112.1266169,quad:0103210011301013,cc:US</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-112.1266169,35.9742136,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="11769527297024161289">
+			<name>We Cook Pizza &amp; Pasta</name>
+			<description><![CDATA[<html>
+ <body>
+  <img style="display:none" src="$[tracking_href_2]" />
+  <div id="content" name="cid=11769527297024161289&q=We+Cook+Pizza+%26+Pasta&ui=earth&view=teaser">
+   <script type="text/javascript" language="JavaScript" src="http://mw2.google.com/mw-earth-vectordb/scripts/business_listings/placepage_loader.js">
+   </script>
+   <table>
+    <tr>
+     <td>
+      <div><table width="350">
+<tr>
+  <td colspan="2">
+    <font size="+1">
+      <b><a style="text-decoration: none" href="http://maps.google.com/maps/place?cid=11769527297024161289">We Cook Pizza & Pasta</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td>605 Arizona 64
+Tusayan, AZ 86023, United States</td>
+</tr>
+<tr>
+  <td>(928) 638-2278</td>
+</tr>
+<tr>
+  <td><a style="color: #008000" href="http://www.wecookpizzaandpasta.com/">http://www.wecookpizzaandpasta.com/</a></td>
+</tr>
+
+
+
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>http://mw1.google.com/mw-earth-vectordb/blaces/00037/root.kmz/default.kml#restaurant</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-restaurant-restaurant._._._.575159a7b7c3ace9_en&amp;cad=lat:35.976038,lon:-112.1245772,quad:01032100113010201,cc:US</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-112.1245772,35.976038,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="18059911440138971883">
+			<name>Seven Mile Lodge</name>
+			<description><![CDATA[<html>
+ <body>
+  <img style="display:none" src="$[tracking_href_2]" />
+  <div id="content" name="cid=18059911440138971883&q=Seven+Mile+Lodge&ui=earth&view=teaser">
+   <script type="text/javascript" language="JavaScript" src="http://mw2.google.com/mw-earth-vectordb/scripts/business_listings/placepage_loader.js">
+   </script>
+   <table>
+    <tr>
+     <td>
+      <div><table width="350">
+<tr>
+  <td colspan="2">
+    <font size="+1">
+      <b><a style="text-decoration: none" href="http://maps.google.com/maps/place?cid=18059911440138971883">Seven Mile Lodge</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td>Highway 64south Tusyan AZ 86023
+AZ 86052, United States</td>
+</tr>
+<tr>
+  <td>(928) 638-2291</td>
+</tr>
+
+
+
+
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>http://mw1.google.com/mw-earth-vectordb/blaces/00037/root.kmz/default.kml#lodging</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-lodging-lodging._._._.72f6367984a3008e_en&amp;cad=lat:35.9687851,lon:-112.1290827,quad:010321001130100,cc:US</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-112.1290827,35.9687851,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grand Canyon Camper Village</name>
+			<description><![CDATA[<html><body><img width="1" height="1" style="display:none" src="http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=geography-parks._._.en.0x87331bebd2f38149:0xd65712f5cd2bbdc1&amp;cad=lod:16,lat:35.976698,lon:-112.124260"/><div id="ftid_div" name="0x87331bebd2f38149:0xd65712f5cd2bbdc1&q=Grand Canyon Camper Village,US"><script type="text/javascript" language="JavaScript" src="http://mw2.google.com/mw-earth-vectordb/geographic_web/dynamic/localities/citypage_loader.js"></script><noscript>Please upgrade to see this content.</noscript></div></body></html>]]></description>
+			<styleUrl>#1048904</styleUrl>
+			<Point>
+				<coordinates>-112.1242601,35.9766983,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="18045799231555235595">
+			<name>Grand Canyon Chamber &amp; Visitor&apos;s Bureau</name>
+			<description><![CDATA[<html>
+ <body>
+  <img style="display:none" src="$[tracking_href_2]" />
+  <div id="content" name="cid=18045799231555235595&q=Grand+Canyon+Chamber+%26+Visitor%27s+Bureau&ui=earth&view=teaser">
+   <script type="text/javascript" language="JavaScript" src="http://mw2.google.com/mw-earth-vectordb/scripts/business_listings/placepage_loader.js">
+   </script>
+   <table>
+    <tr>
+     <td>
+      <div><table width="350">
+<tr>
+  <td colspan="2">
+    <font size="+1">
+      <b><a style="text-decoration: none" href="http://maps.google.com/maps/place?cid=18045799231555235595">Grand Canyon Chamber & Visitor's Bureau</a></b>
+    </font>
+  </td>
+</tr>
+<tr>
+  <td>469 Arizona 64
+Grand Canyon, AZ 86023, United States</td>
+</tr>
+<tr>
+  <td>(928) 638-2901</td>
+</tr>
+<tr>
+  <td><a style="color: #008000" href="http://www.grandcanyonchamber.com/">http://www.grandcanyonchamber.com/</a></td>
+</tr>
+
+
+
+</table></div>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>]]></description>
+			<styleUrl>http://mw1.google.com/mw-earth-vectordb/blaces/00037/root.kmz/default.kml#civic_building</styleUrl>
+			<ExtendedData>
+				<Data name="tracking_href_2">
+					<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-civic_building-government._._._.01cd99da71714944_en&amp;cad=lat:35.9764194,lon:-112.1250673,quad:010321001130102,cc:US</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-112.1250673,35.9764194,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
