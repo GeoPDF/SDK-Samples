@@ -1,0 +1,1 @@
+tgo_composer -georeg -pdf=12SUE9706979349_geo.pdf -output=12SUE9706979349_geo_OUT.pdf -xml=add_attachment.xml  -verbose=debug -product=TGO_Composer -vendor=TERRAGO
