@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<geoDoc>
+	<privileges turnOff="true"/> 
+	<bookmarks>
+		<bookmark label="Grand Canyon Airport - Terminal">
+			<action type="navigation">
+				<viewPort page="0" pointType="geographic">
+					<rect left="-112.13796" bottom="35.95803" right="-112.13029" top="35.96381"/>
+				</viewPort>
+			</action>
+		</bookmark>	
+	</bookmarks>
+</geoDoc>
