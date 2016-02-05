@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
+<geoDoc> 
+	<!-- Map Assembly - files listed below are assembled into the base PDF (base PDF is defined with the SDK cmd line argument) --> 
+	<resources> 
+		<resource id="RES00" url="TOPO_12SUE9706979349.tif" referenceFrame="largestPaper" /> 
+		<resource id="RES01" url="IMAGE_12SUE9706979349.tif" referenceFrame="largestPaper" />
+	</resources> 
+	<pages> 
+		<page number="0">
+			<!-- Layers are generated within GeoPDF --> 
+			<content action="insertFirst" resource="#RES00">
+				<layer path="TOPO" />
+				<clipPath clipToReferenceFrame="true"/>
+			</content>
+			<content action="insertFirst" resource="#RES01">
+				<layer path="NAIP Imagery" />
+				<clipPath clipToReferenceFrame="true"/>
+			</content>
+		</page>
+	</pages>
+	<docLayers>
+		<!-- Set Layer visibility --> 
+		<layer name ="TOPO" visible="true"/>
+		<layer name ="NAIP Imagery" visible="false"/>
+	</docLayers>
+</geoDoc> 
