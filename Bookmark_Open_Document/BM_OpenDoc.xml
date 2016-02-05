@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
+<geoDoc version="1.0"> 
+	<bookmarks>  
+		<!-- Creation of Bookmark - open Information file--> 
+		<bookmark label="Information Pages"> 
+			<bookmarks> 
+				<bookmark label="Grand Canyon Infopage"> 
+					<action type="navigation" url="Grand_Canyon_InfoPage.pdf" /> 
+				</bookmark> 
+			</bookmarks> 
+		</bookmark> 
+	</bookmarks> 
+</geoDoc> 
