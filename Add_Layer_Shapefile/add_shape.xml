@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<geoDoc version="1.0">
+	<pages>
+		<page number="0">
+			<content url="Roads.shp" createLayer="true" layerName="Road Shapefile">
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>2</width>
+				</LineStyle>
+				<clipPath clipToReferenceFrame="true" />
+			</content>
+		</page>
+	</pages>
+</geoDoc>
