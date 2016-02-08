@@ -1,0 +1,2 @@
+tgo_composer -pdf=12SUE9706979349_geo.pdf -output="12SUE9706979349_InsetRemoved_OUT.pdf" -xml=RemoveInsetMapFrame.xml -georeg -product="TGO_Composer" -vendor="TerraGo"  -verbose=debug
+tgo_composer -pdf=12SUE9706979349_geo.pdf -output="12SUE9706979349_MainRemoved_OUT.pdf" -xml=RemoveMainMapFrame.xml -georeg -product="TGO_Composer" -vendor="TerraGo"  -verbose=debug

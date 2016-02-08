@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<geoDoc>
+	<pages>
+		<page number="0">
+			<frames>
+				<!-- index - 1 - Main Map -->
+				<frame action="remove" index="1"/>
+			</frames>
+		</page>
+	</pages>
+</geoDoc>
