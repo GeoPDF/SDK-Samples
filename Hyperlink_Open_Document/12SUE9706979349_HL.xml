@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<geoDoc>
+    <pages>
+        <page number="0">
+			<content>
+				<!-- <text>Hi There</text> -->
+				<labelOptions fontType="Helvetica" color="0x7f000000" size="14" factor="1.0" />
+				<hyperlink >
+					<layer path="/TOPO"/>
+					<bounds pointType="geographic">
+						<points>
+							<point>
+								<geographic lon="-112.13502" lat="35.96108" />
+							</point>
+							<point>
+								<geographic lon="-112.13444" lat="35.96062" />
+							</point>
+						</points>
+					</bounds>
+					<action type="navigation"  url="GC_Airport.pdf"/>
+					<Style id="BluePolyStyle">
+						<LineStyle>
+							<color>7f7f0000</color>
+							<width>2</width>
+						</LineStyle>
+						<PolyStyle>
+							<outline>1</outline>
+						</PolyStyle>
+					</Style>
+				</hyperlink>
+			</content>
+        </page>
+    </pages>
+
+</geoDoc>
