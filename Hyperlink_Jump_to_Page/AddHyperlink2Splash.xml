@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<geoDoc version="1.6">
+	<pages>
+		<page number="0">
+			<content originX="50.0" originY="775.0">
+				<hyperlink>
+					<action type="navigation">
+						<viewPort page="1" pointType="document">
+						</viewPort>
+					</action>
+				</hyperlink>
+			</content>
+		</page>
+	</pages>
+</geoDoc>
