@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<geoDoc version="1.0">
+    <pages>
+        <page number="0" size="1728,1872">
+            <frames>
+                <frame description="Layers" id="55B2420F-0001-1000-9E12-C8600052BB77">
+                    <neatline>
+                        <points>
+                            <point>
+                                <geographic lon="-112.1248634502411" lat="35.93736345026633" />
+                            </point>
+                            <point>
+                                <geographic lon="-112.1563865496463" lat="35.93736345026633" />
+                            </point>
+                            <point>
+                                <geographic lon="-112.1563865496464" lat="35.9688865496716" />
+                            </point>
+                            <point>
+                                <geographic lon="-112.1248634502411" lat="35.9688865496716" />
+                            </point>
+                            <point>
+                                <geographic lon="-112.1248634502411" lat="35.93736345026633" />
+                            </point>
+                        </points>
+                    </neatline>
+                </frame>
+            </frames>
+        </page>
+    </pages>
+</geoDoc>
