@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!-- Output directory relative to where the batch script resides --> 
+<geoDocs output="MapBook_OUT/"> 
+	<!-- Get all Mapsheets with pdf extension--> 
+	<filespecs> 
+		<filespec id="L1" specification="MapBook_OUT\detail\*.pdf"/>    
+	</filespecs> 
+	<!-- Identify index sheet, build grid, labels, and hyperlinks--> 
+	<geoDoc id="L1Index" url="MapBook_OUT\00_Index.pdf"> 
+﻿		<privileges turnOff="true" mode="leaveUnchanged"/>
+		<pages>
+			<page number="0">
+				<content type="grid">
+					<grids>
+						<grid>
+							<series name="TGT Map Grid">
+								<tile href="#L1"/>
+							</series>
+							<labelOptions fontType= "Helvetica" color="red" factor="0.3"/>
+							<Style id="test1">
+								<LineStyle>
+									<color>red</color>
+									<width>1</width>
+								</LineStyle>
+							</Style>
+						</grid>
+					</grids>
+				</content>
+			</page>
+		</pages>
+	</geoDoc>
+	<!-- Identify maps sheet, build adjacent hyperlinks-->	
+	<geoDoc id="L1Indices" filespec="#L1" relativeTo="#L1Index">
+	<privileges turnOff="true" mode="leaveUnchanged"/>
+		<pages>
+			<page number="0">
+				<content type="text" adjacencies="#L1">
+					<hyperlink url="#L1.relName"/>
+				</content>
+			</page>
+		</pages>
+	</geoDoc>
+</geoDocs>
